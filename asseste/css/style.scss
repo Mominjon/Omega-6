@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.big-container {
+    width: 1500px;
+    margin: 0 auto;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+body {
+    font-family: 'Circular Std';
+    background: #F2F2F2;
+}
+.link-1 {
+    transition: color 0.5s ease;
+}
+.link-1:hover {
+    color: #5454D4!important;
+}
+.link-2 {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 10px 15px;
+    background: #F0544C;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    transition: color, background-color 0.5s ease;
+}
+.link-2:hover {
+    color: black;
+    background-color: #fff;
+}
+.big-img {
+    margin-left: -120px;
+}
+.tepa-qism-text h1 {
+    font-weight: bolder;
+    width: 600px;
+    margin-top: 50px;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+}
+.tepa-qism-text {
+    width: 500px;
+    margin-left: 70px;
+}
+.tepa-qism-text ul {
+    margin-top: 50px;
+}
+.tepa-qism-text li {
+    margin-left: -40px;
+}
+.tepa-qism-text img{
+    width: 24px;
+    height: 25px;
+}
+.tepa-qism-text p {
+    margin-left: 10px;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: -0.656526px;
+    color: #19191B;
+}
+.tepa-1-qism {
+    margin-top: 100px;
+    display: flex;
+}
+.narh {
+    border: 1px solid #F2F2F2!important;
+    width: 320px;
+    padding: 15px 15px;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.656526px;
+    color: #FFFFFF;
+    background: #F0544C;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    transition: color, background-color 0.5s ease;
+    margin-top: 60px;
+}
+.narh:hover {
+    border: 1px solid black!important;
+    color: black;
+    background-color: #fff;
+}
+.kichik-p {
+    margin-top: 20px;
+    font-size: 6px;
+    line-height: 21px;
+    letter-spacing: -0.562737px;
+    color: #19191B;
+}
+.kichik-p a {
+    display: inline-block;
+}
